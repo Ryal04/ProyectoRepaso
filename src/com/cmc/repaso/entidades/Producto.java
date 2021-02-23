@@ -30,6 +30,11 @@ public class Producto {
 		
 	}  
 	
+	public double calcularPrecioPromo(double descuento){
+		double resultado = precio * (descuento / 100);
+		return resultado;
+	}
+	
 	
 	
     
