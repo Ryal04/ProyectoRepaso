@@ -27,7 +27,6 @@ public class Producto {
 		}else{
 			this.precio = precio;
 		}
-		
 	}  
 	
 	public double calcularPrecioPromo(double descuento){

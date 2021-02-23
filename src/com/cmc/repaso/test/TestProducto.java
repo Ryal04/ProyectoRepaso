@@ -5,7 +5,7 @@ import com.cmc.repaso.entidades.Producto;
 public class TestProducto {
 
 	public static void main(String[] args) {
-		Producto pt = new Producto("Roidy Alvarez", 122);
+		Producto pt = new Producto("Roidy Alvarez", 0);
 		pt.setPrecio(-500);
 		 
 		System.out.println("------- Datos -------");
